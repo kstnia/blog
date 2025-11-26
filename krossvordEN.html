@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Crossword</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+      padding: 20px;
+      text-align: center;
+      color: #222;
+    }
+    h1 {
+      color: #c1272d;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    td {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #444;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: #fff;
+      color: #000;
+    }
+    .empty {
+      background-color: #f0f0f0;
+      border-color: #ccc;
+    }
+    .word-list {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      max-width: 250px;
+      text-align: left;
+    }
+    .word-list h2 {
+      color: #c1272d;
+      margin-top: 0;
+    }
+    .word-list ol {
+      padding-left: 20px;
+    }
+    .word-list li {
+      margin-bottom: 8px;
+    }
+    footer {
+      margin-top: 30px;
+      color: #555;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎄 Christmas Crossword Puzzle 🎁</h1>
+
+  <div class="container">
+    <!-- Crossword Grid (10x10) -->
+    <table>
+      <tr><td class="empty"></td><td>S</td><td>A</td><td>N</td><td>T</td><td>A</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+      <tr><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>N</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+      <tr><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>O</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+      <tr><td>G</td><td>I</td><td>F</td><td>T</td><td>W</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+      <tr><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>M</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+      <tr><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>A</td><td>T</td><td>R</td><td>E</td><td>E</td><td class="empty"></td></tr>
+      <tr><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>N</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+      <tr><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+      <tr><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+      <tr><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+    </table>
+
+    <!-- Word List -->
+    <div class="word-list">
+      <h2>Words to find:</h2>
+      <ol>
+        <li>SANTA</li>
+        <li>SNOWMAN</li>
+        <li>GIFTS</li>
+        <li>TREE</li>
+        <li>STAR</li>
+      </ol>
+    </div>
+  </div>
+
+  <footer>
+    Find all words horizontally or vertically!
+  </footer>
+</body>
+</html>
